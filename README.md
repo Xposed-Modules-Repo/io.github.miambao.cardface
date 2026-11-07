@@ -1,0 +1,30 @@
+# 卡面工坊
+
+把小米智能卡 / ColorOS 卡包里千篇一律的卡面，换成你自己喜欢的图片。
+
+## 功能
+
+- **替换卡面**：图片合成为 960×606 PNG，复制到卡包私有目录后以 `file://` 交给卡包加载
+- **高质量缩放**：缩放感知 Lanczos3 + sRGB 线性光重采样，细线 / 文字不再有锯齿
+- **图库 / 裁剪 / 卡面标志**：160:101 裁剪、双指缩放、京津冀 / 上海 / 泉城通 / 银川 标志、圆角裁切
+- **Miuix（HyperOS）界面**：澎湃蓝 / 动态取色 / 8 个预设色 / 深色模式 / 过渡动画
+- 卡面重命名、隐藏桌面图标、hook 缓存清理、一键重启卡包
+
+## 使用
+
+1. 在 LSPosed 中启用「卡面工坊」，作用域勾选：小米智能卡 / ColorOS 卡包
+2. 打开卡包，把卡面浏览一遍
+3. 回到 App，点一张卡面 → 选图 / 裁剪 / 加标志 → 保存并应用
+4. 重启卡包后生效
+
+## 兼容性
+
+- 小米智能卡（`com.miui.tsmclient`）：Xiaomi 15 Pro / HyperOS 4 / LSPosed 2.2.1 验证通过
+- ColorOS 卡包（`com.finshell.wallet`）：未做真机验证，可能不生效
+- 替换图需要复制到卡包私有目录，**复制步骤需要 root**
+
+## 链接
+
+- 源码仓库：https://github.com/MiamBao/cardface-miuix
+- 问题反馈：https://github.com/MiamBao/cardface-miuix/issues
+- 许可证：GPL-3.0
