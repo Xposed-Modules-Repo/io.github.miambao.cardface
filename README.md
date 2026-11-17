@@ -71,7 +71,7 @@
 
 ## 安装与使用
 
-1. 下载 Release 里的 `CardFace-v2.0.0.apk` 并安装。
+1. 下载 Release 里的 `CardFace-v2.0.1.apk` 并安装。
 2. 在 LSPosed 里启用「卡面工坊」，作用域勾选：小米智能卡。
 3. 打开卡包，把卡面浏览一遍，让 hook 记录到卡面地址。
 4. 回到「卡面工坊」→ 点一张卡面 → 从相册 / 在线卡面库选图 → 裁剪 / 加标志 → 保存并应用。
@@ -80,6 +80,8 @@
 > **隐藏 / 寄生模式的 LSPosed**：部分设备的管理器没有桌面图标，也无法被第三方 App 直接打开。此时从通知栏的「Xposed 模块已更新 / LSPosed」通知进入管理器，长按模块 →「模块设置」即可打开本应用。
 
 ## 下载
+
+> 2.0.1 是修复版：解决了 2.0.0 安装包上传损坏、部分用户无法解析的问题，功能与 2.0.0 一致。
 
 - GitHub Releases：<https://github.com/MiamBao/cardface-miuix/releases/latest>
 - LSPosed 模块仓库：<https://github.com/Xposed-Modules-Repo/io.github.miambao.cardface>
