@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/icon.png" alt="卡面工坊" width="112"/>
+  <img src="https://raw.githubusercontent.com/Xposed-Modules-Repo/io.github.miambao.cardface/main/docs/icon.png" alt="卡面工坊" width="112"/>
 </p>
 
 <h1 align="center">卡面工坊</h1>
@@ -19,7 +19,7 @@
 ---
 
 <p align="center">
-  <img src="docs/promo/00-cover.jpg" alt="卡面工坊 2.0" width="820"/>
+  <img src="https://raw.githubusercontent.com/Xposed-Modules-Repo/io.github.miambao.cardface/main/docs/promo/00-cover.jpg" alt="卡面工坊 2.0" width="820"/>
 </p>
 
 ## 这是什么
